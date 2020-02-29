@@ -44,7 +44,9 @@
 						<div class="cover-card-2 text-center">
 							<div class="text-pacifico badge badge-danger"><i>Latest News</i></div>						
 							<div class="card-2-box-1"><div></div></div>
-							<h1 class="text-josefin pt-2">Lorem	Ipsum</h1>
+
+							<h1 class="text-anton pt-2" style="color:gray">Car Accident in Giwangan Road!</h1>
+
 							<p class="text-alata">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
@@ -58,6 +60,99 @@
 			<a href="" onclick="$('#container').animatescroll({scrollSpeed:1700,easing:'easeInOutSine'});" class="btn btn-outline-light btn-lg started px-5"><i class="fas fa-chevron-down"></i></a>
 
 		</div>
+	</div>
+	<div class="container-fluid my-3 mb-5 px-5">
+			<h1 class="text-center text-josefin text-tomato mt-5 py-3" style="font-weight: bold">HEAD ARTICLES!</h1>
+			<div class="owl-carousel owl-theme hot-news-carousel p-0 m-0">
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-1 ">
+							<div class="blacker-news"></div>
+			    	</div>
+			    	<div class="hot-news-tag text-josefin text-light">
+							<div class="row p-3" style="text-decoration: underline;">
+								<div class="col-sm-6">
+
+									<span>NEWS</span>
+
+								</div>
+								<div class="col-sm-6 text-right">
+									
+									<span>1 Comment</span>
+
+								</div>
+							</div>
+						</div>
+						<div class="hot-news-title text-josefin p-5 text-light">
+
+							<p class="">FEBRUARY 29, 2020</p>
+
+							<h4 class="text-anton">ASTRONOUT WILL GO TO THE MARS IN FEBRUARY 31, 2021!</h4>
+
+							<p>Its not impossible now, for human to stay in the mars. And its ill take 10 person for first try to the sun. The cost are very cheap because...</p>
+
+							<a href="#" class="btn btn-lg btn-outline-light" style="border-radius: 0px;">READMORE</a>
+						</div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-2 ">
+							<div class="blacker-news"></div>
+			    	</div>
+			    	<div class="hot-news-tag text-josefin text-light">
+							<div class="row p-3" style="text-decoration: underline;">
+								<div class="col-sm-6">
+
+									<span>ARTICLE</span>
+
+								</div>
+								<div class="col-sm-6 text-right">
+									
+									<span>12 Comment</span>
+
+								</div>
+							</div>
+						</div>
+						<div class="hot-news-title text-josefin p-5 text-light">
+
+							<p class="">FEBRUARY 29, 2020</p>
+
+							<h4 class="text-anton">New Unbelievable Mercy Sport Car</h4>
+
+							<p>Mercedes Benz now have a unbelievable car! The speed is very fast, it can reach 350mph! And the interior is...</p>
+
+							<a href="#" class="btn btn-lg btn-outline-light" style="border-radius: 0px;">READMORE</a>
+						</div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-3 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-4 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-5 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-6 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-7 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-8 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-9 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-10 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-11 "></div>
+			    </div>
+			    <div class="item hot-news-carousel-1">
+			    	<div class="hot-news-carousel-img-12 "></div>
+			    </div>
+			</div>
 	</div>
 	<div class="w-100 p-3 pt-5" style="background-color: tomato">
 		<div class="container">

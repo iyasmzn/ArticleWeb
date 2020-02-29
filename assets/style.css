@@ -55,7 +55,7 @@ a:hover {
 	width: 100%;
 	box-sizing: border-box;
 	padding: 0px;
-	border-top: 2px solid black;
+	border-top: 2px solid tomato;
 	margin: 0px;
 }
 .logo-1 {
@@ -156,7 +156,7 @@ a:hover {
 	margin-top: 30px;
 	width: 100%;
 	height: 250px!important;
-	background-color: black;
+	background-color: tomato;
 	border-radius: 7px;
 	overflow: hidden;
 }
@@ -167,7 +167,7 @@ a:hover {
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	background-color: tomato;
 	opacity: 0.7;
 	transition: all 0.3s;
 }
@@ -217,6 +217,56 @@ a:hover {
 .news-dashboard {
 	background-color: white;
 }
+		/*head article carousel*/
+	.hot-news-carousel {
+		width: 100%;
+		box-shadow: 0px 0px 15px black;
+		background-color: tomato;
+		border-radius: 0px;
+		overflow: hidden;
+	}
+	.hot-news-carousel-1 {
+		position: relative;
+		width: 100%;
+		height: 35vw;
+		overflow: hidden;
+	}
+	.blacker-news {
+		position: absolute;
+		top: 0;bottom: 0;left: 0;right: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		transition: all 0.5s;
+	}
+	.hot-news-tag {
+		position: absolute;
+		top: 0;left: 0;right: 0;
+	}
+	.hot-news-title {
+		position: absolute;
+		bottom: 0;left: 0;right: 0;
+	}
+	[class*="hot-news-carousel-"]:hover [class*="img"] {
+		transform: scale(1.1);
+	}
+	[class*="hot-news-carousel-"]:hover [class*="blacker"] {
+		/*background-color: rgba(0, 0, 0, 0.0);*/
+	}
+	[class*="hot-news-carousel-img"] {
+		width: 100%;
+		height: 100%;
+		transition: all 0.5s;
+		background-image: url('');
+		background-color: tomato;
+		background-size: cover;
+		background-position: center;
+	}
+	.hot-news-carousel-img-1 {
+		background-image: url('https://images2.alphacoders.com/106/thumb-1920-1063834.jpg');
+	}
+	.hot-news-carousel-img-2 {
+		background-image: url('https://images.alphacoders.com/106/thumb-1920-1063366.jpg');
+	}
+/*Sidebar*/
 .sidebar {
 	background-color: rgba(255, 255, 255, 1);
 }
