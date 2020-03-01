@@ -1,5 +1,5 @@
 <div class="sidebar text-josefin shadowes">
-	<div class="sidebar-content-1" style="border-top: 2px solid #000;">
+	<div class="sidebar-content-1" style="border-top: 2px solid tomato;">
 		<h3 class="mb-4 mt-2">Category</h3>
 			<a class="p-1 pl-2 category-list"><i class="fas fa-circle text-danger"></i> NEWS <span class="badge badge-danger">99+</span></a>
 			<a class="p-1 pl-2 category-list"><i class="fas fa-circle text-success"></i> FILM ACTORS <span class="badge badge-info">2</span></a>

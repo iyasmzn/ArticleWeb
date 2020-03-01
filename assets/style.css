@@ -148,7 +148,6 @@ a:hover {
 	background-size: 40%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-attachment: fixed;
 	z-index: -2;
 }
 .cover-bg-2 {
@@ -157,7 +156,6 @@ a:hover {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-attachment: fixed;
 }
 .cover-card-2 {
 	background-color: white;
@@ -233,11 +231,19 @@ a:hover {
 
 /*News Dash*/
 .news-dashboard {
-	background-color: white;
+	background-color: none;
+	position: relative;
+}
+.news-dashboard .news-dashboard-content {
+	position: relative;
+	left: 50%;
+	background: white;
+	transform: translateX(-50%);
 }
 		/*head article carousel*/
 	.head-newss {
 		position: relative;
+		background-color: #fff;
 	}
 	.head-newss:before {
 		position: absolute;
@@ -247,13 +253,13 @@ a:hover {
 		height: 20px;
 		text-align: center;
 		left: 0;right: 0;
-		background: white;
+		background: none;
 		z-index: 100;
 	}
 	.hot-news-carousel {
 		width: 100%;
 		box-shadow: 0px 0px 3px black;
-		background-color: white;
+		background-color: tomato;
 		border-radius: 0px;
 		overflow: hidden;
 		transition: all 0.3s;
@@ -313,10 +319,10 @@ a:hover {
 [class*='sidebar-content'] {
 	position: relative;
 	padding: 5%;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid tomato;
 }
 [class*='sidebar-content'] h3 {
-	background: black;
+	background: tomato;
 	color: white;
 	display: inline-block;
 	padding: 5px 20px;
@@ -344,7 +350,7 @@ a:hover {
 	height: 10px;
 	width: 100%;
 	border-radius: 0px;
-	background: black;
+	background: tomato;
 }
 .sidebar-content-1 > h3:after {
 	background: black;
@@ -413,6 +419,9 @@ a:hover {
 }
 
 /*Footer*/
+.footer {
+	background-color: tomato;
+}
 .footer div div {
-	height: 30vw;
+	/*height: 30vw;*/
 }

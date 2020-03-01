@@ -22,6 +22,8 @@
 			$('.chepron-down-2').toggle({transform:'rotate(90deg)'});
 		});
 		$('.owl-carousel').owlCarousel({
+		autoplay:true,
+		autoplayTimeout: 5*1000,
     loop:true,
     margin:0,
     nav:false,
