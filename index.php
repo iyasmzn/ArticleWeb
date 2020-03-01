@@ -45,7 +45,7 @@
 							<div class="text-pacifico badge badge-danger"><i>Latest News</i></div>						
 							<div class="card-2-box-1"><div></div></div>
 
-							<h1 class="text-anton pt-2" style="color:gray">Car Accident in Giwangan Road!</h1>
+							<h1 class="text-anton pt-2" style="color:gray">Car Accident in XXXX Road!</h1>
 
 							<p class="text-alata">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -65,16 +65,24 @@
 			<h1 class="text-left text-anton text-light mt-5 py-3" style="font-weight: bold">HOT ARTICLES!</h1>
 			<?php include './partials/hot-news-carousel.php'; ?>
 	</div>
-	<div class="w-100 p-3 pt-5" style="background-color: tomato">
-		<div class="container-fluid">
-			<div class="row" style="">
-				<div class="news-dashboard col-md-8">as</div>
+	<div class="container-fluid p-3 pt-5" style="background-color: tomato">
+		<div class="w-100">
+			<div class="row ml-1" style="">
+				<div class="news-dashboard col-md-8 shadowes">as</div>
 				<div class="col-md-4">
 					<?php include './partials/sidebar.php'; ?>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+	<!-- Script -->
 	<?php include './assets/script.php'; ?>
 </body>
 </html>

@@ -13,6 +13,14 @@
 <!-- MyScript -->
 <script type="text/javascript">
 	$(document).ready(function() {
+		$('.archive-list-1').click(function() {
+			$('.chepron-right-1').toggle({transform:'scale(2)'});
+			$('.chepron-down-1').toggle({transform:'rotate(90deg)'});
+		});
+		$('.archive-list-2').click(function() {
+			$('.chepron-right-2').toggle({transform:'scale(2)'});
+			$('.chepron-down-2').toggle({transform:'rotate(90deg)'});
+		});
 		$('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
